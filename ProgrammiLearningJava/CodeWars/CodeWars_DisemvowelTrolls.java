@@ -33,4 +33,3 @@ public class CodeWars_DisemvowelTrolls {
         }
     }
 }
-

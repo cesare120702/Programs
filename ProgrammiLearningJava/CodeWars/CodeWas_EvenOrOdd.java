@@ -14,14 +14,13 @@ public class CodeWas_EvenOrOdd {
 
         System.out.println(evenOrOdd(number));
 
-
     }
 
     public static String evenOrOdd(int number) {
 
-if(number%2 == 0){
-    return "Even";
-}
+        if (number % 2 == 0) {
+            return "Even";
+        }
 
         return "Odd"; // Place code here;
     }

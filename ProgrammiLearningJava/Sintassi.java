@@ -1,10 +1,10 @@
 package ProgrammiLearningJava;
 
-import java.util.*;
+//import java.util.*;
 
 public class Sintassi {
    public static void main(String[] args) {
-      String stringa = "ciao";
+      /*String stringa = "ciao";
       int numero = 0; // -2,147,483,647 a 2,147,483,647
       double decimale = 2.5;
       char carattere = 'c';
@@ -104,7 +104,7 @@ public class Sintassi {
        * " non è presente nella lista.");
        * 
        * }
-       */
+       
 
       // manovrarsi fra le stringhe
 
@@ -125,6 +125,6 @@ public class Sintassi {
 
        // nomeCompleto = nomeCompleto.replaceAll("\\d+" , ""); regex per rimuovere i numeri
        nomeCompleto = nomeCompleto.replaceAll("[a-zA-Z]+" , ""); 
-      System.out.println(nomeCompleto);
+      System.out.println(nomeCompleto);*/
    }
 }

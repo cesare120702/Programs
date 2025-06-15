@@ -4,20 +4,19 @@ package ProgrammiLearningJava;
 
 public class Sintassi {
    public static void main(String[] args) {
+      /*String stringa = "ciao";
+      int numero = 0; // -2,147,483,647 a 2,147,483,647
+      double decimale = 2.5;
+      char carattere = 'c';
+      boolean b = true;
+
+      long numero2 = 2; // ancora piu range dell int
+
+      int[] numeri = new int[3];
+      int[] numeri2 = { 2, 4, 6 };
+
+      // -----for normale
       /*
-       * String stringa = "ciao";
-       * int numero = 0; // -2,147,483,647 a 2,147,483,647
-       * double decimale = 2.5;
-       * char carattere = 'c';
-       * boolean b = true;
-       * 
-       * long numero2 = 2; // ancora piu range dell int
-       * 
-       * int[] numeri = new int[3];
-       * int[] numeri2 = { 2, 4, 6 };
-       * 
-       * // -----for normale
-       * /*
        * for (int i = 0; i < numeri2.length; i++) {
        * 
        * System.out.print(numeri2[i] + " ");
@@ -105,29 +104,27 @@ public class Sintassi {
        * " non è presente nella lista.");
        * 
        * }
-       * 
-       * 
-       * // manovrarsi fra le stringhe
-       * 
-       * String nomeCompleto = "V1in1c1en1z2o";
-       * System.out.println(nomeCompleto.charAt(0));
-       * 
-       * for (int i = 0; i < nomeCompleto.length(); i++) {
-       * System.out.print(nomeCompleto.charAt(i) + " ");
-       * }
-       * System.out.println();
-       * 
-       * String[] dati = nomeCompleto.split("");
-       * for(String s : dati){
-       * System.out.print(s + " ");
-       * }
-       * 
-       * char[] caratteri = nomeCompleto.toCharArray();
-       * 
-       * // nomeCompleto = nomeCompleto.replaceAll("\\d+" , ""); regex per rimuovere i
-       * numeri
-       * nomeCompleto = nomeCompleto.replaceAll("[a-zA-Z]+" , "");
-       * System.out.println(nomeCompleto);
-       */
+       
+
+      // manovrarsi fra le stringhe
+
+      String nomeCompleto = "V1in1c1en1z2o";
+      System.out.println(nomeCompleto.charAt(0));
+
+      for (int i = 0; i < nomeCompleto.length(); i++) {
+         System.out.print(nomeCompleto.charAt(i) + " ");
+      }
+      System.out.println();
+
+      String[] dati = nomeCompleto.split("");
+      for(String s : dati){
+         System.out.print(s + " ");
+      }
+
+      char[] caratteri = nomeCompleto.toCharArray();
+
+       // nomeCompleto = nomeCompleto.replaceAll("\\d+" , ""); regex per rimuovere i numeri
+       nomeCompleto = nomeCompleto.replaceAll("[a-zA-Z]+" , ""); 
+      System.out.println(nomeCompleto);*/
    }
 }

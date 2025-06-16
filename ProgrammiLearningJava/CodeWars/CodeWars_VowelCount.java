@@ -24,17 +24,17 @@ public class CodeWars_VowelCount {
 
     public static int getCount(String str) {
 
-            char[] stringaArray = str.toCharArray();
-            int conteggio = 0;
+        char[] stringaArray = str.toCharArray();
+        int conteggio = 0;
 
-            for (int i = 0; i < str.length(); i++) {
-                char c = stringaArray[i];
-                if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u') {
-                    conteggio++;
-                }
+        for (int i = 0; i < str.length(); i++) {
+            char c = stringaArray[i];
+            if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u') {
+                conteggio++;
             }
-
-            return conteggio;
         }
+
+        return conteggio;
+    }
 
 }

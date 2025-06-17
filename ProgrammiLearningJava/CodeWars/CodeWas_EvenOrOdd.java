@@ -22,6 +22,6 @@ public class CodeWas_EvenOrOdd {
             return "Even";
         }
 
-        return "Odd"; // Place code here;
+        return "Odd";
     }
 }

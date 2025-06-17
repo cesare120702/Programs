@@ -47,7 +47,8 @@ public class CodeWars_MultiplesOf3Or5 {
         return sommaNumeri;
     }
     /*
-     * Soluzione più pulita
+     * SOLUZIONE PIÙ PULITA
+     * 
      * public class Solution {
      * 
      * public int solution(int number) {

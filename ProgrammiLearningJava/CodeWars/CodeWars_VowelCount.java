@@ -1,7 +1,5 @@
 package ProgrammiLearningJava.CodeWars;
 
-import java.util.*;
-
 public class CodeWars_VowelCount {
 
     public static void main(String[] args) {
